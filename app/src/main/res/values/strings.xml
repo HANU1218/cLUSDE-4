@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">SiteBlocker</string>
+
+    <string name="accessibility_service_description">SiteBlocker monitors browser page content on-device to detect and block distracting websites you\'ve chosen to restrict. No data ever leaves your device.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_debug_log">Debug Log</string>
+    <string name="nav_browsers">Browsers</string>
+    <string name="nav_inspector">Inspector</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_keywords">Keywords</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="status_enabled">🟢 Running</string>
+    <string name="status_disabled">🔴 Disabled</string>
+    <string name="btn_enable_accessibility">Enable Accessibility</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_accessibility_service">Accessibility Service</string>
+    <string name="dashboard_current_browser">Current Browser</string>
+    <string name="dashboard_current_url">Current URL</string>
+    <string name="dashboard_last_blocked">Last Blocked Website</string>
+    <string name="dashboard_overlay_status">Overlay Status</string>
+    <string name="dashboard_blocked_today">Blocked Today</string>
+    <string name="dashboard_total_keywords">Total Keywords</string>
+    <string name="dashboard_current_package">Current Package</string>
+    <string name="dashboard_current_activity">Current Activity</string>
+    <string name="dashboard_events_per_sec">Events / sec</string>
+    <string name="dashboard_memory_usage">Memory Usage</string>
+    <string name="dashboard_uptime">Service Uptime</string>
+    <string name="dashboard_last_event_time">Last Event Time</string>
+    <string name="dashboard_last_overlay_time">Last Overlay Time</string>
+    <string name="dashboard_screen_state">Screen State</string>
+    <string name="dashboard_root_null">Root Window Null</string>
+    <string name="dashboard_last_error">Last Error</string>
+    <string name="dashboard_none">None</string>
+    <string name="dashboard_not_running">Not running</string>
+
+    <!-- Debug log -->
+    <string name="debug_log_title">Debug Log</string>
+    <string name="btn_clear_log">Clear Log</string>
+    <string name="btn_copy_log">Copy Log</string>
+    <string name="btn_export_log">Export Log</string>
+    <string name="log_empty">No events logged yet.</string>
+    <string name="log_copied">Log copied to clipboard</string>
+    <string name="log_cleared">Log cleared</string>
+    <string name="log_exported">Log exported to %1$s</string>
+    <string name="log_export_failed">Failed to export log</string>
+
+    <!-- Browsers -->
+    <string name="browsers_title">Detected Browsers</string>
+    <string name="btn_refresh_browsers">Refresh Browser List</string>
+    <string name="browsers_empty">No browsers detected yet. Tap refresh.</string>
+    <string name="browser_default_badge">Default</string>
+    <string name="browser_installed_badge">Installed</string>
+    <string name="browser_supported_badge">Supported</string>
+
+    <!-- Inspector -->
+    <string name="inspector_title">Accessibility Inspector</string>
+    <string name="inspector_current_package">Current Package</string>
+    <string name="inspector_current_activity">Current Activity</string>
+    <string name="inspector_current_url">Current URL</string>
+    <string name="inspector_window_title">Window Title</string>
+    <string name="inspector_node_count">Node Count</string>
+    <string name="inspector_root_null">rootInActiveWindow Null</string>
+    <string name="inspector_event_type">Event Type</string>
+    <string name="inspector_timestamp">Timestamp</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">Statistics</string>
+    <string name="stats_today">Today Blocked</string>
+    <string name="stats_yesterday">Yesterday Blocked</string>
+    <string name="stats_7days">Last 7 Days</string>
+    <string name="stats_total">Total Blocked</string>
+    <string name="stats_most_blocked_site">Most Blocked Website</string>
+    <string name="stats_most_active_browser">Most Active Browser</string>
+    <string name="stats_average_daily">Average Daily Blocks</string>
+
+    <!-- Keywords -->
+    <string name="keywords_title">Blocked Keywords</string>
+    <string name="btn_add_keyword">Add Keyword</string>
+    <string name="hint_keyword">Enter website or keyword</string>
+    <string name="hint_search_keywords">Search keywords</string>
+    <string name="empty_state">No keywords added yet.\nTap \"Add Keyword\" to start blocking sites.</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="dialog_add_keyword_title">Add Keyword</string>
+    <string name="dialog_edit_keyword_title">Edit Keyword</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="keyword_exists">This keyword is already in the list</string>
+    <string name="keyword_empty">Keyword cannot be empty</string>
+    <string name="keyword_invalid">Enter a valid keyword (at least 2 characters)</string>
+    <string name="sort_alphabetical">A–Z</string>
+    <string name="sort_recent">Recently Added</string>
+    <string name="btn_import">Import</string>
+    <string name="btn_export">Export</string>
+    <string name="import_success">Imported %1$d keyword(s)</string>
+    <string name="import_failed">Import failed</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_auto_start_check">Auto Start Service Check</string>
+    <string name="settings_show_notifications">Show Notifications</string>
+    <string name="settings_overlay_animation">Overlay Animation</string>
+    <string name="settings_debug_mode">Debug Mode</string>
+    <string name="settings_export_logs">Export Logs</string>
+    <string name="settings_reset_statistics">Reset Statistics</string>
+    <string name="settings_backup_keywords">Backup Keywords</string>
+    <string name="settings_restore_keywords">Restore Keywords</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_reset_confirm_title">Reset Statistics?</string>
+    <string name="settings_reset_confirm_message">This clears all block counts and cannot be undone.</string>
+    <string name="settings_backup_success">Keywords backed up</string>
+    <string name="settings_restore_success">Keywords restored</string>
+    <string name="settings_restore_failed">No valid backup found</string>
+    <string name="dev_console_unlocked">Developer Console unlocked</string>
+
+    <!-- Developer console -->
+    <string name="dev_console_title">Developer Console</string>
+    <string name="dev_console_force_show_overlay">Force Show Overlay</string>
+    <string name="dev_console_force_hide_overlay">Force Hide Overlay</string>
+    <string name="dev_console_test_url">Test URL Matching</string>
+    <string name="dev_console_refresh_browsers">Refresh Browser List</string>
+    <string name="dev_console_export_logs">Export Debug Logs</string>
+    <string name="dev_console_recent_exceptions">Recent Exceptions</string>
+    <string name="dev_console_hint_url">Enter a URL to test</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">Stay Focused</string>
+    <string name="overlay_go_back">Go Back</string>
+    <string name="overlay_close_app">Close App</string>
+    <string name="overlay_keyword_prefix">Blocked keyword: %1$s</string>
+    <string name="overlay_quote_1">Discipline is choosing between what you want now and what you want most.</string>
+    <string name="overlay_quote_2">You don\'t have to be extreme, just consistent.</string>
+    <string name="overlay_quote_3">The pain of discipline weighs ounces. The pain of regret weighs tons.</string>
+    <string name="overlay_quote_4">Every scroll you resist is a step toward who you want to become.</string>
+    <string name="overlay_quote_5">Small distractions steal big dreams. Go back to work.</string>
+</resources>

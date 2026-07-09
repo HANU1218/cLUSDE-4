@@ -1,0 +1,19 @@
+<resources>
+    <color name="primary">#4285F4</color>
+    <color name="primary_dark">#0B1E33</color>
+    <color name="accent">#FF6E6E</color>
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="text_primary">#F2F2F2</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="overlay_background">#F2000000</color>
+    <color name="overlay_text">#FFFFFF</color>
+    <color name="status_running">#66BB6A</color>
+    <color name="status_disabled">#EF5350</color>
+    <color name="card_stroke">#2E2E2E</color>
+    <color name="chip_background">#20263B</color>
+    <color name="log_debug">#B0B0B0</color>
+    <color name="log_info">#82B1FF</color>
+    <color name="log_warning">#FFD54F</color>
+    <color name="log_error">#EF5350</color>
+</resources>
